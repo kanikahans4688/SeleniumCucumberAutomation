@@ -3,6 +3,7 @@ package stepDefinition;
 import com.wordpress.pages.Homepage;
 import com.wordpress.pages.LoginPage;
 
+
 import BaseClass.TestBase;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -12,6 +13,7 @@ public class HomePageTest extends TestBase{
 
 	LoginPage loginpage;
 	Homepage homepage;
+	
 	
 	@Given("^I want launch the browser$")
 	public void i_want_launch_the_browser() throws Throwable {

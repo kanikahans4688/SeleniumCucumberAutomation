@@ -31,17 +31,12 @@ public class Homepage extends TestBase{
 	@FindBy(how=How.XPATH,using="//input[@id='last_name']")
 	WebElement lastname;
 	
-	@FindBy(how=How.XPATH,using="//button[@class='button wp-generate-pw hide-if-no-js']")
-	WebElement password;
+	
 	
 	@FindBy(how=How.XPATH,using="//input[@id='createusersub']")
 	WebElement addnewuser;
 	
-	@FindBy(how=How.ID,using="pass1-text")
-	WebElement text;
 	
-	@FindBy(how=How.XPATH,using="//input[@name='pw_weak']")
-	WebElement checkbox;
 	
 	
 	
