@@ -27,9 +27,7 @@ public class TestBase {
 			try {
 				prop = new Properties();
 				
-				FileInputStream fis=new FileInputStream("C:\\Users\\kanika\\eclipse-workspace\\SeleniumCucumberAutomationDemo\\src\\main\\java\\com\\wordpress\\config\\config.properties");
-				
-				
+				FileInputStream fis=new FileInputStream(System.getProperty("user.dir")+ "/src/main/java/com/wordpress/config/config.properties");
 					prop.load(fis);
 				} catch (IOException e) {
 					// TODO Auto-generated catch block

@@ -36,8 +36,10 @@ public class HomePageTest extends TestBase{
 	}
 
 	@Then("^I enter the details \"([^\"]*)\" and \"([^\"]*)\" and \"([^\"]*)\" and\"([^\"]*)\"$")
-	public void i_enter_the_details_and_and_and(String uname, String mail, String firstname, String lastname) throws Throwable {
-	   homepage.addInformation(uname, mail, firstname, lastname);
+	public void i_enter_the_details_and_and_and(String userid, String mail, String firstname, String lastname) throws Throwable {
+	   
+	   
+	   homepage.addInformation(userid, mail, firstname, lastname);
 	}
 	
 	@Then("^I click on add new user button$")
